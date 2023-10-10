@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AD3D892AD4FC9900DECAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3D882AD4FC9900DECAA1 /* AppDelegate.swift */; };
+		84AD3D8B2AD4FC9900DECAA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3D8A2AD4FC9900DECAA1 /* SceneDelegate.swift */; };
+		84AD3D8D2AD4FC9900DECAA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3D8C2AD4FC9900DECAA1 /* ViewController.swift */; };
+		84AD3D902AD4FC9900DECAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3D8E2AD4FC9900DECAA1 /* Main.storyboard */; };
+		84AD3D922AD4FC9B00DECAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3D912AD4FC9B00DECAA1 /* Assets.xcassets */; };
+		84AD3D952AD4FC9B00DECAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3D932AD4FC9B00DECAA1 /* LaunchScreen.storyboard */; };
+		84AD3DA02AD4FC9B00DECAA1 /* TSDUISwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3D9F2AD4FC9B00DECAA1 /* TSDUISwitchTests.swift */; };
+		84AD3DAA2AD4FC9B00DECAA1 /* TSDUISwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3DA92AD4FC9B00DECAA1 /* TSDUISwitchUITests.swift */; };
+		84AD3DAC2AD4FC9B00DECAA1 /* TSDUISwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3DAB2AD4FC9B00DECAA1 /* TSDUISwitchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AD3D9C2AD4FC9B00DECAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AD3D7D2AD4FC9900DECAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AD3D842AD4FC9900DECAA1;
+			remoteInfo = TSDUISwitch;
+		};
+		84AD3DA62AD4FC9B00DECAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AD3D7D2AD4FC9900DECAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AD3D842AD4FC9900DECAA1;
+			remoteInfo = TSDUISwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84AD3D852AD4FC9900DECAA1 /* TSDUISwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSDUISwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AD3D882AD4FC9900DECAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AD3D8A2AD4FC9900DECAA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84AD3D8C2AD4FC9900DECAA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84AD3D8F2AD4FC9900DECAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AD3D912AD4FC9B00DECAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AD3D942AD4FC9B00DECAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AD3D962AD4FC9B00DECAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD3D9B2AD4FC9B00DECAA1 /* TSDUISwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSDUISwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AD3D9F2AD4FC9B00DECAA1 /* TSDUISwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSDUISwitchTests.swift; sourceTree = "<group>"; };
+		84AD3DA52AD4FC9B00DECAA1 /* TSDUISwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSDUISwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AD3DA92AD4FC9B00DECAA1 /* TSDUISwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSDUISwitchUITests.swift; sourceTree = "<group>"; };
+		84AD3DAB2AD4FC9B00DECAA1 /* TSDUISwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSDUISwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AD3D822AD4FC9900DECAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD3D982AD4FC9B00DECAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD3DA22AD4FC9B00DECAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AD3D7C2AD4FC9900DECAA1 = {
+			isa = PBXGroup;
+			children = (
+				84AD3D872AD4FC9900DECAA1 /* TSDUISwitch */,
+				84AD3D9E2AD4FC9B00DECAA1 /* TSDUISwitchTests */,
+				84AD3DA82AD4FC9B00DECAA1 /* TSDUISwitchUITests */,
+				84AD3D862AD4FC9900DECAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AD3D862AD4FC9900DECAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AD3D852AD4FC9900DECAA1 /* TSDUISwitch.app */,
+				84AD3D9B2AD4FC9B00DECAA1 /* TSDUISwitchTests.xctest */,
+				84AD3DA52AD4FC9B00DECAA1 /* TSDUISwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AD3D872AD4FC9900DECAA1 /* TSDUISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				84AD3D882AD4FC9900DECAA1 /* AppDelegate.swift */,
+				84AD3D8A2AD4FC9900DECAA1 /* SceneDelegate.swift */,
+				84AD3D8C2AD4FC9900DECAA1 /* ViewController.swift */,
+				84AD3D8E2AD4FC9900DECAA1 /* Main.storyboard */,
+				84AD3D912AD4FC9B00DECAA1 /* Assets.xcassets */,
+				84AD3D932AD4FC9B00DECAA1 /* LaunchScreen.storyboard */,
+				84AD3D962AD4FC9B00DECAA1 /* Info.plist */,
+			);
+			path = TSDUISwitch;
+			sourceTree = "<group>";
+		};
+		84AD3D9E2AD4FC9B00DECAA1 /* TSDUISwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AD3D9F2AD4FC9B00DECAA1 /* TSDUISwitchTests.swift */,
+			);
+			path = TSDUISwitchTests;
+			sourceTree = "<group>";
+		};
+		84AD3DA82AD4FC9B00DECAA1 /* TSDUISwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84AD3DA92AD4FC9B00DECAA1 /* TSDUISwitchUITests.swift */,
+				84AD3DAB2AD4FC9B00DECAA1 /* TSDUISwitchUITestsLaunchTests.swift */,
+			);
+			path = TSDUISwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AD3D842AD4FC9900DECAA1 /* TSDUISwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AD3DAF2AD4FC9B00DECAA1 /* Build configuration list for PBXNativeTarget "TSDUISwitch" */;
+			buildPhases = (
+				84AD3D812AD4FC9900DECAA1 /* Sources */,
+				84AD3D822AD4FC9900DECAA1 /* Frameworks */,
+				84AD3D832AD4FC9900DECAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSDUISwitch;
+			productName = TSDUISwitch;
+			productReference = 84AD3D852AD4FC9900DECAA1 /* TSDUISwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AD3D9A2AD4FC9B00DECAA1 /* TSDUISwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AD3DB22AD4FC9B00DECAA1 /* Build configuration list for PBXNativeTarget "TSDUISwitchTests" */;
+			buildPhases = (
+				84AD3D972AD4FC9B00DECAA1 /* Sources */,
+				84AD3D982AD4FC9B00DECAA1 /* Frameworks */,
+				84AD3D992AD4FC9B00DECAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AD3D9D2AD4FC9B00DECAA1 /* PBXTargetDependency */,
+			);
+			name = TSDUISwitchTests;
+			productName = TSDUISwitchTests;
+			productReference = 84AD3D9B2AD4FC9B00DECAA1 /* TSDUISwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84AD3DA42AD4FC9B00DECAA1 /* TSDUISwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AD3DB52AD4FC9B00DECAA1 /* Build configuration list for PBXNativeTarget "TSDUISwitchUITests" */;
+			buildPhases = (
+				84AD3DA12AD4FC9B00DECAA1 /* Sources */,
+				84AD3DA22AD4FC9B00DECAA1 /* Frameworks */,
+				84AD3DA32AD4FC9B00DECAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AD3DA72AD4FC9B00DECAA1 /* PBXTargetDependency */,
+			);
+			name = TSDUISwitchUITests;
+			productName = TSDUISwitchUITests;
+			productReference = 84AD3DA52AD4FC9B00DECAA1 /* TSDUISwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AD3D7D2AD4FC9900DECAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84AD3D842AD4FC9900DECAA1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					84AD3D9A2AD4FC9B00DECAA1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 84AD3D842AD4FC9900DECAA1;
+					};
+					84AD3DA42AD4FC9B00DECAA1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 84AD3D842AD4FC9900DECAA1;
+					};
+				};
+			};
+			buildConfigurationList = 84AD3D802AD4FC9900DECAA1 /* Build configuration list for PBXProject "TSDUISwitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AD3D7C2AD4FC9900DECAA1;
+			productRefGroup = 84AD3D862AD4FC9900DECAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AD3D842AD4FC9900DECAA1 /* TSDUISwitch */,
+				84AD3D9A2AD4FC9B00DECAA1 /* TSDUISwitchTests */,
+				84AD3DA42AD4FC9B00DECAA1 /* TSDUISwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AD3D832AD4FC9900DECAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD3D952AD4FC9B00DECAA1 /* LaunchScreen.storyboard in Resources */,
+				84AD3D922AD4FC9B00DECAA1 /* Assets.xcassets in Resources */,
+				84AD3D902AD4FC9900DECAA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD3D992AD4FC9B00DECAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD3DA32AD4FC9B00DECAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AD3D812AD4FC9900DECAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD3D8D2AD4FC9900DECAA1 /* ViewController.swift in Sources */,
+				84AD3D892AD4FC9900DECAA1 /* AppDelegate.swift in Sources */,
+				84AD3D8B2AD4FC9900DECAA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD3D972AD4FC9B00DECAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD3DA02AD4FC9B00DECAA1 /* TSDUISwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AD3DA12AD4FC9B00DECAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AD3DAC2AD4FC9B00DECAA1 /* TSDUISwitchUITestsLaunchTests.swift in Sources */,
+				84AD3DAA2AD4FC9B00DECAA1 /* TSDUISwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AD3D9D2AD4FC9B00DECAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AD3D842AD4FC9900DECAA1 /* TSDUISwitch */;
+			targetProxy = 84AD3D9C2AD4FC9B00DECAA1 /* PBXContainerItemProxy */;
+		};
+		84AD3DA72AD4FC9B00DECAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AD3D842AD4FC9900DECAA1 /* TSDUISwitch */;
+			targetProxy = 84AD3DA62AD4FC9B00DECAA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AD3D8E2AD4FC9900DECAA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AD3D8F2AD4FC9900DECAA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AD3D932AD4FC9B00DECAA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AD3D942AD4FC9B00DECAA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AD3DAD2AD4FC9B00DECAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84AD3DAE2AD4FC9B00DECAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AD3DB02AD4FC9B00DECAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TSDUISwitch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = selfteam.TSDUISwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AD3DB12AD4FC9B00DECAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TSDUISwitch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = selfteam.TSDUISwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84AD3DB32AD4FC9B00DECAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = selfteam.TSDUISwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSDUISwitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TSDUISwitch";
+			};
+			name = Debug;
+		};
+		84AD3DB42AD4FC9B00DECAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = selfteam.TSDUISwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSDUISwitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TSDUISwitch";
+			};
+			name = Release;
+		};
+		84AD3DB62AD4FC9B00DECAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = selfteam.TSDUISwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TSDUISwitch;
+			};
+			name = Debug;
+		};
+		84AD3DB72AD4FC9B00DECAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = selfteam.TSDUISwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TSDUISwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AD3D802AD4FC9900DECAA1 /* Build configuration list for PBXProject "TSDUISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD3DAD2AD4FC9B00DECAA1 /* Debug */,
+				84AD3DAE2AD4FC9B00DECAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AD3DAF2AD4FC9B00DECAA1 /* Build configuration list for PBXNativeTarget "TSDUISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD3DB02AD4FC9B00DECAA1 /* Debug */,
+				84AD3DB12AD4FC9B00DECAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AD3DB22AD4FC9B00DECAA1 /* Build configuration list for PBXNativeTarget "TSDUISwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD3DB32AD4FC9B00DECAA1 /* Debug */,
+				84AD3DB42AD4FC9B00DECAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AD3DB52AD4FC9B00DECAA1 /* Build configuration list for PBXNativeTarget "TSDUISwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AD3DB62AD4FC9B00DECAA1 /* Debug */,
+				84AD3DB72AD4FC9B00DECAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AD3D7D2AD4FC9900DECAA1 /* Project object */;
+}

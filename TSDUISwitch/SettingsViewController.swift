@@ -252,23 +252,3 @@ private extension SettingsViewController {
         self.present(alertController, animated: true)
     }
 }
-#if DEBUG
-
-struct InfoVCRepresentable: UIViewControllerRepresentable {
-    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
-        // leave this empty
-    }
-    
-    @available(iOS 13.0.0, *)
-    func makeUIViewController(context: Context) -> UIViewController {
-        SettingsViewController()
-    }
-}
-
-@available(iOS 13.0, *)
-struct InfoVCPreview: PreviewProvider {
-    static var previews: some View {
-        InfoVCRepresentable()
-    }
-}
-#endif

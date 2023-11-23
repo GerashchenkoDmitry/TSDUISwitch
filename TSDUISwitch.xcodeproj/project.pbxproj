@@ -91,7 +91,6 @@
 		84AD3D7C2AD4FC9900DECAA1 = {
 			isa = PBXGroup;
 			children = (
-				84999F322B0D1BA2008D08A6 /* MealCell.swift */,
 				84AD3D872AD4FC9900DECAA1 /* TSDUISwitch */,
 				84AD3D9E2AD4FC9B00DECAA1 /* TSDUISwitchTests */,
 				84AD3DA82AD4FC9B00DECAA1 /* TSDUISwitchUITests */,
@@ -118,6 +117,7 @@
 				84AD3D8C2AD4FC9900DECAA1 /* LoginViewController.swift */,
 				84999EEE2AEFA3FC008D08A6 /* SettingsViewController.swift */,
 				84999F2E2B0BCECF008D08A6 /* CheckViewController.swift */,
+				84999F322B0D1BA2008D08A6 /* MealCell.swift */,
 				84999F302B0CF28B008D08A6 /* Meal.swift */,
 				84999F2C2B0BC975008D08A6 /* Extensions.swift */,
 				84AD3D912AD4FC9B00DECAA1 /* Assets.xcassets */,

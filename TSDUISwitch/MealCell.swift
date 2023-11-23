@@ -64,15 +64,18 @@ final class MealCell: UITableViewCell {
     }
     
     // MARK: Fetch data for each cell
+    // Not quit and concise but in works.
     
     func configureCellWith(_ meal: Meal) {
         nameLabel.text = meal.name
         costLabel.text = String(meal.cost)
         ingredientsLabel.text = "Meals: "
-        
+        // Add each ingredient to ingradientsLabel
         meal.ingredients.forEach { ing in
-            ingredientsLabel.text? += "\(ing),"
+            ingredientsLabel.text? += "\(ing), "
         }
+        // remove last comma and space
+        ingredientsLabel.text?.removeLast()
         ingredientsLabel.text?.removeLast()
     }
 }

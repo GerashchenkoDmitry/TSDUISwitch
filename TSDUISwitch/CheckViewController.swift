@@ -8,11 +8,14 @@
 import UIKit
 
 final class CheckViewController: UIViewController {
-       
+    
+    // MARK: Meals to display
+    
     private let orderTotal = [
         Meal(name: "Cezar Salad", cost: 450.0, ingredients: ["Chiken", "Cherry tomato", "Cheese", "Chineese Cabbage"]),
         Meal(name: "Greece Salad", cost: 600.0, ingredients: ["Cherry tomato", "Chiken", "Salad", "Cheese", "Cherry tomato", "Chiken", "Salad", "Cheese","Cherry tomato", "Chiken", "Salad", "Cheese","Cherry tomato", "Chiken", "Salad", "Cheese","Cherry tomato", "Chiken", "Salad", "Cheese","Cherry tomato", "Chiken", "Salad", "Cheese"])
     ]
+    
     private let tableView = UITableView(frame: .zero, style: .grouped)
     
     override func viewDidLoad() {
@@ -22,6 +25,8 @@ final class CheckViewController: UIViewController {
 }
 
 private extension CheckViewController {
+    
+    // MARK: Set navigationTitle and backgroundColor to system
     
     func configureBaseUI() {
         self.title = "CheckView"
@@ -36,8 +41,6 @@ private extension CheckViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(MealCell.self, forCellReuseIdentifier: MealCell.reuseID)
-        tableView.estimatedRowHeight = 80
-//        tableView.rowHeight = UITableView.automaticDimension
         
         view.addSubview(tableView)
         

@@ -24,6 +24,7 @@ final class MealCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
+        // Cell creates with predefined background colors
         let colors: [UIColor] = [UIColor.systemRed, UIColor.systemYellow, UIColor.systemCyan, UIColor.systemMint, UIColor.systemPink]
         let randomColor = colors.randomElement()
         
@@ -52,7 +53,7 @@ final class MealCell: UITableViewCell {
         contentView.addSubview(ingredientsLabel)
         ingredientsLabel.snp.makeConstraints { make in
             make.left.equalToSuperview().inset(8)
-            make.right.equalToSuperview().inset(20)
+            make.right.equalToSuperview().inset(8)
             make.top.equalTo(nameLabel.snp.bottom).offset(8)
             make.bottom.equalToSuperview().inset(8)
         }
@@ -61,6 +62,8 @@ final class MealCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    // MARK: Fetch data for each cell
     
     func configureCellWith(_ meal: Meal) {
         nameLabel.text = meal.name
